@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:showAsAction="always"
+        android:id="@+id/mi_back_to_calendar"
+        android:title="@string/mi_goToCalendar"
+        android:icon="@drawable/calendar"
+        android:onClick="onClickMI" />
+</menu>

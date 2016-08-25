@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Menstrualni Kalendar</string>
+
+    <string name="pin_title">Unesite PIN!</string>
+    <string name="wrong_pin_error">Neispravan PIN!</string>
+    <string name="submit_pin_button">Puščaj!</string>
+
+    <string name="mi_pill_toggle">Pilula</string>
+    <string name="mi_stats">Statistika</string>
+    <string name="mi_settings">Postavke</string>
+    <string name="mi_goToCalendar">Kalendar</string>
+
+    <string name="day_period">Menstruacija:</string>
+    <string name="day_coitus">Seksualni odnos:</string>
+    <string name="day_headache">Glavobolja:</string>
+    <string name="day_pill">Hormonska terapija:</string>
+    <string name="day_comment">Zabilješka:</string>
+
+</resources>

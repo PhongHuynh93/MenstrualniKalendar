@@ -1,0 +1,28 @@
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <SwitchPreference
+        android:key="DB"
+        android:defaultValue="false"
+        android:title="gimme data!"
+        />
+
+    <SwitchPreference
+        android:key="Pill"
+        android:defaultValue="true"
+        android:title="Pill a day keeps children away"
+        />
+
+    <SwitchPreference
+        android:key="isGridLayout"
+        android:defaultValue="true"
+        android:title="WYSIWYG, or is it?"
+        />
+
+    <EditTextPreference
+        android:key = "PIN"
+        android:defaultValue = "1234"
+        android:title="Plain text format FTW"
+        />
+
+</PreferenceScreen>

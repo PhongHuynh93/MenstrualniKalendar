@@ -1,0 +1,49 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="skenja.menstrualnikalendar">
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <application
+        android:name=".App"
+        android:allowBackup="true"
+        android:icon="@drawable/calendar"
+        android:label="@string/app_name"
+        android:supportsRtl="true">
+
+        <activity
+            android:name=".LoginActivity.activity_login"
+            android:label="@string/app_name"
+            android:noHistory="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".KalendarActivity.activity_kalendar"
+            android:label="Kalendar">
+        </activity>
+        
+        <activity
+            android:name=".SettingsActivity.activity_settings"
+            android:label="Postavke">
+        </activity>
+
+        <activity
+            android:name=".StatsActivity.activity_stats"
+            android:label="Statistika">
+        </activity>
+
+        <receiver android:name=".NewDayAlarmHandler" >
+            <intent-filter>
+                <action android:name="noviJeDan" />
+            </intent-filter>
+        </receiver>
+
+    </application>
+
+</manifest>

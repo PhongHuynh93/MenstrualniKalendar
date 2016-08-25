@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="60dp"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical|center_horizontal"
+    android:background="#c1f78b">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="60dp"
+        android:gravity="center_vertical|center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="31"
+            android:id="@+id/adapter_date"
+            android:textSize="19sp"
+            android:layout_gravity="center"
+            android:textColor="#000000"
+            android:textAlignment="center"
+            android:layout_marginTop="-2dp"
+            android:layout_marginBottom="-2dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minWidth="60dp"
+        android:gravity="center_vertical|center_horizontal"
+        android:layout_marginBottom="2dp">
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:id="@+id/adapter_coitus"
+            android:minHeight="20dp"
+            android:minWidth="20dp"
+            android:maxHeight="20dp"
+            android:maxWidth="20dp"
+            android:src="@drawable/heart_on"
+            android:cropToPadding="false"
+            android:layout_gravity="left|center"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:id="@+id/adapter_period"
+            android:minHeight="20dp"
+            android:minWidth="20dp"
+            android:maxHeight="20dp"
+            android:maxWidth="20dp"
+            android:src="@drawable/droplet_on"
+            android:cropToPadding="false"
+            android:layout_gravity="center"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:layout_width="20dp"
+            android:layout_height="15dp"
+            android:id="@+id/adapter_headache"
+            android:minHeight="20dp"
+            android:minWidth="20dp"
+            android:maxHeight="20dp"
+            android:maxWidth="20dp"
+            android:src="@drawable/headache_on"
+            android:cropToPadding="false"
+            android:layout_gravity="center|right"
+            android:visibility="invisible" />
+    </LinearLayout>
+</LinearLayout>
